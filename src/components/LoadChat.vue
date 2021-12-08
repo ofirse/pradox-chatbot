@@ -54,11 +54,21 @@ export default {
 
       const chatId = this.chatID;
 
-      $.getJSON("chats.json", function(chats) {
+      $.getJSON("chats.json", function (chats) {
         const chatsArr = JSON.parse(chats);
+
+        /* TODO
+* 1. Get the selected chat from chats
+* 2.get question type and question text from questions.json
+* 3. get all options for questions on type select according to the question id
+* 4. create a new object of the chat with all the data
+* 5. prints the new object
+* */
 
         const chat = chatsArr.find(chat => chat.chatID === chatId);
         console.log(JSON.stringify(chat));
+
+
       });
     },
   },
