@@ -1,0 +1,21 @@
+{
+	"chatID": "TZJ7547",
+	"questions": [
+		{ "qid": 1, "order": 1, "qtype": 1,
+		"qtext": "Hi! I'm Olivia, your personal Paradox job assistant. Thank you for your interest. We are looking for great talent for many types of jobs. To get started, can you please provide me with your first and last name?"
+		},
+		{ "qid": 5, "order": 2, "qtype": 3,
+		"qtext": "Have you heard of Paradox before?",
+		"option1": "Yes", "option2": "No", "option3": "", "option4": ""
+		},
+		{ "qid": 9, "order": 3, "qtype": 2,
+		"qtext": "On a scale of 1-10, rate your affection to farm animals",
+		"min": 1, "max": 10
+		},
+		{ "qid": 10, "order": 4, "qtype": 3,
+		"qtext": "Do you perfome well in a team?",
+		"option1": "I do", "option2": "A bit", "option3": "Not at all", "option4": ""
+		},
+	]
+	
+}
